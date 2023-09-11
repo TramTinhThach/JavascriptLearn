@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM</title>
+
+    <style>
+        ul {
+            display: none;
+        }
+
+        input:focus ~ ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!--DOM events example-->
+    <h1>
+        <span>DOM events 1</span>
+    </h1>
+
+    <h1>
+        <span>DOM events 2</span>
+    </h1>
+
+    <h1>
+        <span>DOM events 3</span>
+    </h1>
+
+    <input type="text">
+    <input type="checkbox">
+
+    <select>
+        <option value="1">Javascript</option>
+        <option value="2">PHP</option>
+        <option value="3">Ruby</option>
+    </select>
+
+    <!--PreventDefault & StopPropagation-->
+    <br>
+    <a href="https://fullstack.edu.vn/learning/javascript-co-ban?id=2284">
+        Học Lập Trình
+    </a>
+    <br>
+    <a href="https://google.com">
+        Google
+    </a>
+
+    <br>
+
+    <input placeholder="Tìm Kiếm"/>
+
+    <ul>
+        <li>Javascript</li>
+        <li>PHP</li>
+        <li>Ruby</li>
+    </ul>
+
+    <!--stopPropagation-->
+   <br>
+   <div>
+       DIV 
+
+       <button>Click me!</button>
+   </div>
+
+   <!--Event Listener-->
+   <br>
+
+   <button id="btn">Click me!!</button>
+</body>
+<script src="./main.js"></script> 
+</html>
